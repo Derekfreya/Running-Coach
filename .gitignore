@@ -1,0 +1,17 @@
+# ===== 知识库构建中间产物（由 scripts/ 生成，体积大，不入库） =====
+urls.json
+articles/
+kb/
+raw-*.xml
+idx-*.html
+*.log
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.env
+
+# ===== 系统/编辑器 =====
+.DS_Store
+.idea/
+.vscode/
